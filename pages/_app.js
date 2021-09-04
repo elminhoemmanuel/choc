@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
       
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <div className=''>
+          <div className='bg-chblack'>
           <Layout>
             <Component {...pageProps} />
           </Layout>

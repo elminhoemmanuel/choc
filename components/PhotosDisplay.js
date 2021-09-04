@@ -4,23 +4,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 
-const AlbumsDisplay = () => {
+const PhotosDisplay = () => {
 
     const router = useRouter()
     const dispatch = useDispatch();
     const { album , artist, loading, error, photos } = useSelector((state) => state.albums);
-
-    const displayPhotos = (value) => {
-        for (let i = 0; i < 11; i++) {
-            return <div
-
-                className="rounded-md bg-chcard border border-chborder hover:border-chgreen">
-                <Image layout="fill" src={value[i].url} className='w-full h-28 rounded' alt="album photo" />
-
-            </div>
-
-        }
-    }
 
     return (
         <div>
@@ -56,4 +44,4 @@ const AlbumsDisplay = () => {
     )
 }
 
-export default AlbumsDisplay
+export default PhotosDisplay
