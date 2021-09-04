@@ -30,7 +30,7 @@ export const listReducer = (state = initialState, action) => {
     case SET_ERROR:
       return {
         ...state,
-        error: "Something went wrong please try again!"
+        error: "Something went wrong please refresh the page!"
       };
 
     default:
