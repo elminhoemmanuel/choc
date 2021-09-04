@@ -11,9 +11,10 @@ module.exports = {
       colors: {
         chgreen:"#39E58C",
         chblack:"#0E1217",
-        chborder:"#1E2229",
+        chborder:"#a3c2c2",
         chheader:"#A8B3CF",
-        chtext:"#CCCCCC"
+        chtext:"#CCCCCC",
+        chcard:"#1C1F26",
       }
     },
 
