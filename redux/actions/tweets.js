@@ -34,7 +34,7 @@ export const createTweet = (data) => (dispatch) => {
 
     dispatch({ type: START_FETCH })
 
-    axios.post(`https://jsonplaceholder.typicode.com/comment`,data, {
+    axios.post(`https://jsonplaceholder.typicode.com/comments`,data, {
         headers: {
             'Content-type': 'application/json; charset=UTF-8',
         }
