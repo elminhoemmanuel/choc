@@ -15,6 +15,9 @@ module.exports = {
         chheader:"#A8B3CF",
         chtext:"#CCCCCC",
         chcard:"#1C1F26",
+        chmodal:"#1E202E",
+        chback:"#060609",
+        chinput:"#3C4252",
       }
     },
 
