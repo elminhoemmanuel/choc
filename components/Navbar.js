@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link href="/">
                     <a className='flex items-center'>
                         <div><p className='text-lg'>ChocCity</p></div>
-                        <div><FaMicrophoneAlt className='text-chgreen' /></div>
+                        <div><FaMicrophoneAlt className='text-chgreen h-6 w-6' /></div>
                     </a>
                 </Link>
             </nav>

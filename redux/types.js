@@ -9,3 +9,6 @@ export const SET_ALBUMS = "SET_ALBUMS"
 export const SET_NAME = "SET_NAME"
 export const SET_ALBUM = "SET_ALBUM"
 export const SET_PHOTOS = "SET_PHOTOS"
+
+// Types for tweets page
+export const SET_TWEETS = "SET_TWEETS"
