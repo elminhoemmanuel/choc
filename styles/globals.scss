@@ -14,9 +14,10 @@ html, body{
     margin:0;
     padding:0;
     position: relative;
+    background-color: #0E1217 !important;
 }
 
-// page spinner
+// page spinners
 .spinner-page {
     width:30px;
     height:30px;
@@ -27,9 +28,39 @@ html, body{
 }
 @keyframes s3 {to{transform: rotate(1turn)}}
 
+// button spinner
+.spinner-white {
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:conic-gradient(#0000 10%,#ffffff);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation: s3 1s infinite linear;
+  }
+  @keyframes s3 {to{transform: rotate(1turn)}}
+
 // for images
 .images{
     width:100% !important;
     height:100% !important;
 }
+
+//  style for modal box
+.modal-box{
+    height: 90vh !important;
+}
+
+.modal-box::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  .modal-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .modal-box::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 5px;
+  }
 

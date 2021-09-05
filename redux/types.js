@@ -12,3 +12,6 @@ export const SET_PHOTOS = "SET_PHOTOS"
 
 // Types for tweets page
 export const SET_TWEETS = "SET_TWEETS"
+export const SHOW_CREATE = "SHOW_CREATE"
+export const CREATE_TWEET = "CREATE_TWEET"
+export const RESET = "RESET"

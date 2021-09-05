@@ -12,7 +12,7 @@ const TweetsDisplay = () => {
     const { loading, error, tweets } = useSelector((state) => state.tweets);
 
     return (
-        <div>
+        <div className="pt-6 pb-20">
             {
                 loading ?
                     <div className="flex items-center justify-center">
